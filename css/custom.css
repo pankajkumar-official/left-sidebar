@@ -1,0 +1,102 @@
+.sidebar-main {
+	background: #16827c none repeat scroll 0 0;
+	float: left;
+	min-height: 100vh;
+	width: 200px;
+	}
+	.logo-main {
+		width: 100%;
+	}
+	.top-header-left-sec {
+		float: left;
+		width: 200px;
+	}
+	
+	
+	.logo-main img {
+		display: block;
+		margin: 0 auto;
+		max-height: 40px;
+	}
+	.top-header {
+		background: lightseagreen none repeat scroll 0 0;
+		float: left;
+		width: 100%;
+	}
+	.hamburger-lines {
+		cursor: pointer;
+		float: left;
+		padding-top: 10px;
+		width: 30px;
+	}
+	.hamburger-lines > span {
+		background: white none repeat scroll 0 0;
+		border-radius: 3px;
+		float: left;
+		height: 3px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.collapsedTopLeftPanel {
+		width: 60px;
+	}
+	.menu-parent {
+		padding: 5px 5px 5px 10px;
+		position: relative;
+	}
+	.left-menu-link {
+		color: white;
+	}
+	.expandableChild {
+		list-style: outside none none;
+		padding-left: 0;
+	}
+	.expandableChild > li > a {
+		color: white;
+	}
+	.menu-parent.active {
+		background: #0f6964 none repeat scroll 0 0;
+	}
+	.menu-parent a:focus, .menu-parent a:hover {
+    color: #fff;
+}
+.expandableChild > li {
+  padding: 4px 0;
+}
+.toggleIco {
+  float: right;
+  padding-right: 10px;
+  padding-top: 4px;
+}
+.collapsedLeftPanel {
+  width: 60px;
+}
+.collapsedLeftPanel .menu-parent > .left-menu-link > span {
+  display: none;
+}
+.collapsedLeftPanel .menu-parent > .left-menu-link > .toggleIco {
+  display: block;
+}
+.collapsedLeftPanel .menu-parent > .expandableChild {
+  background: #0f6964 none repeat scroll 0 0;
+  left: 60px;
+  min-width: 100px;
+  padding-left: 10px;
+  position: absolute;
+  top: 28px;
+}
+.collapsedLeftPanel > .active > .left-menu-link .MenuLabel {
+  background: #0d5c58 none repeat scroll 0 0;
+  display: block;
+  left: 60px;
+  padding: 4px 0 4px 10px;
+  position: absolute;
+  top: 0;
+  width: 100px;
+}
+.logo-small {
+  padding: 5px;
+}
+.sub-child-menu {
+  padding-left: 15px;
+}
